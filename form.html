@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!---navbar--->
+
+<nav class="navbar bg-dark justify-content-center navbar-expand-lg">
+
+    <ul class="navbar-nav">
+        <li class="nav-item btn btn-info me-5">
+            <a href="home.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item btn btn-info me-5">
+            <a href="gallary.html" class="nav-link">gallary</a>
+        </li>
+        <li class="nav-item btn btn-info me-5">
+            <a href="information.html" class="nav-link">Information</a>
+        </li>
+        <li class="nav-item btn btn-info me-5">
+            <a href="services.html" class="nav-link">Services</a>
+        </li>
+        <li class="nav-item btn btn-info me-5">
+            <a href="couresel.html" class="nav-link">couresel</a>
+        </li>
+
+        <li class="nav-item me-5">
+            <a href="home.html" class="btn btn-info">Friend request <span class="badge">4</span></a>
+        </li>
+
+        <li class="nav-item me-5">
+            <a href="table.html" class="btn btn-info">Chats <span class="badge">5</span></a>
+        </li>
+
+
+    </ul>
+
+
+</nav>
+
+<!---end of navbar--->
+
+
+<form action="">
+    <legend>Administrator</legend>
+    <div class="row mb-3">
+        <div class="col">
+
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="abc123@gmail.com" required="required">
+
+        </div>
+
+        <div class="col">
+
+            <label for="pwd" class="form-label">Password</label>
+            <input type="password" class="form-control" id="pwd" placeholder="password" required="required">
+
+        </div>
+
+    </div>
+
+    <div class="mb-3">
+
+        <label for="address">Address</label>
+        <input type="text" id="address" class="form-control" placeholder="1234 Man 51 ">
+
+    </div>
+
+    <div class="mb-3">
+
+        <label for="address2">Address</label>
+        <input type="text" id="address2" class="form-control" placeholder="Apartment, studio or floor ">
+
+    </div>
+
+    <div class="row mb-3">
+        <div class="col">
+            <label for="city">City</label>
+            <input type="text" id="city" class="form-control">
+
+        </div>
+
+        <div class="col">
+            <label for="state">State</label>
+            <select name="" id="state" class="form-select">
+
+                <option value="choose" disabled="disabled">--Choose--</option>
+                <option value="georgia">Georgia</option>
+                <option value="texas">Texas</option>
+                <option value="alabama">Alabama</option>
+                <option value="Los angeles">Los Angeles</option>
+
+            </select>
+        </div>
+
+        <div class="col">
+            <label for="zip">Zip</label>
+            <input type="number" id="zip" class="form-control">
+
+        </div>
+
+        <div>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+</form>
+
+
+
+</body>
+</html>
